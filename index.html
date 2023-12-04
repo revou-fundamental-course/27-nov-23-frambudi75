@@ -2,26 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hitung Luas & Keliling Segitiga</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title><centre>Keliling Segitiga Calculator</centre></title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1>Hitung Luas & Keliling Segitiga</h1>
+  <h1>Keliling Segitiga</h1>
+  <img class="triangle-img" src="triangle_image.jpg" alt="Triangle Image">
+  <p>
+    Hitung Keliling Segitiga
+  </p>
+
   <form id="triangleForm">
-    <label for="sideA">Panjang Sisi A:</label>
+    <label for="sideA">a:</label>
     <input type="number" id="sideA" required>
     <br>
-    <label for="sideB">Panjang Sisi B:</label>
+    <label for="sideB">b:</label>
     <input type="number" id="sideB" required>
     <br>
-    <label for="sideC">Panjang Sisi C:</label>
+    <label for="sideC">c:</label>
     <input type="number" id="sideC" required>
     <br>
+    <p>
     <button type="button" onclick="hitung()">Hitung</button>
+    </p>
   </form>
-
   <div id="result"></div>
 
   <script src="script.js"></script>
 </body>
+
 </html>

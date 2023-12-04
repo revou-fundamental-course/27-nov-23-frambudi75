@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 20px; /* Menambahkan margin sekitar konten */
+}
+
+/* Ganti warna teks header menjadi hitam dan latar belakang menjadi biru */
+h1 {
+  color: black;
+  background-color: rgb(13, 131, 241);
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* Mengatur form dan hasil perhitungan agar berada di tengah */
+form, #result {
+  text-align: center;
+}
+  
+  .triangle-img {
+    width: 300px;
+    height: auto;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  #result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+
+/* Styling untuk kotak input */
+input[type="number"],
+button {
+  padding: 8px 12px;
+  border: 1px solid #ccc; /* Tambahkan border */
+  border-radius: 4px;
+}
+
+/* Styling untuk tombol Hitung */
+button {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border: 1px solid blue; /* Tambahkan border dengan warna yang sama dengan background */
+}
+
+/* Memberikan margin bawah pada hasil perhitungan */
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+  
